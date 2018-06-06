@@ -1,0 +1,14 @@
+{
+  "name": "standards-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test262-harness --threads 16 --hostType node --hostPath node --test262Dir test262/ --prelude src/reduce.js test262/test/**/*.js"
+  },
+  "author": "Bocoup LLC",
+  "license": "MIT",
+  "dependencies": {
+    "test262-harness": "^3.0.0"
+  }
+}
